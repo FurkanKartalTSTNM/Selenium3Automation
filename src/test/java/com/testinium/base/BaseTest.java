@@ -6,8 +6,6 @@ import com.google.gson.reflect.TypeToken;
 import com.testinium.model.ElementInfo;
 import com.thoughtworks.gauge.AfterScenario;
 import com.thoughtworks.gauge.BeforeScenario;
-//import org.apache.commons.lang.StringUtils;
-
 import org.apache.commons.lang.StringUtils;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -96,7 +94,6 @@ public class BaseTest {
         }
     }
 
-
     @AfterScenario
     public void tearDown() {
         driver.quit();
@@ -137,7 +134,6 @@ public class BaseTest {
      *
      * @return the chrome options
      */
-
     public ChromeOptions chromeOptions() {
         chromeOptions = new ChromeOptions();
         capabilities = DesiredCapabilities.chrome();
@@ -152,19 +148,26 @@ public class BaseTest {
         return chromeOptions;
     }
 
-    private FirefoxOptions firefoxOptions() {
-        // Firefox sürücü seçeneklerini yapılandırma (isteğe bağlı)
-        FirefoxOptions options = new FirefoxOptions();
-        // İhtiyaca göre seçenekleri ekleyin
-        return options;
-    }
-
     /**
      * Set Firefox options
      *
      * @return the firefox options
      */
-
+    public FirefoxOptions firefoxOptions() {
+        firefoxOptions = new FirefoxOptions();
+        capabilities = DesiredCapabilities.firefox();
+        Map<String, Object> prefs = new HashMap<>();
+        prefs.put("profile.default_content_setting_values.notifications", 2);
+        firefoxOptions.addArguments("--kiosk");
+        firefoxOptions.addArguments("--disable-notifications");
+        firefoxOptions.addArguments("--start-fullscreen");
+        FirefoxProfile profile = new FirefoxProfile();
+        capabilities.setCapability(FirefoxDriver.PROFILE, profile);
+        capabilities.setCapability("marionette", true);
+        firefoxOptions.merge(capabilities);
+        System.setProperty("webdriver.gecko.driver", "web_driver/geckodriver");
+        return firefoxOptions;
+    }
 
     public ElementInfo findElementInfoByKey(String key) {
         return (ElementInfo) elementMapList.get(key);
@@ -179,6 +182,3 @@ public class BaseTest {
     }
 
 }
-
-
-
