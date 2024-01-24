@@ -44,7 +44,7 @@ Tags: AccountInformationSayfasiElementKontrolu
 
 * User Information tabına tıkla
 * Account Information tabına tıkla
-* Şu anki url "https://testinium.io/user/account/information" ile aynı mı
+* Şu anki url "https://clouddev.testinium.io/user/account/information" ile aynı mı
 
 Test-6 : Account Information sayfasının Basic information sayfasının kontrolü
 -----------------------
@@ -58,24 +58,31 @@ Test-7 : Users sayfasının kontrollerinin yapılması
 Tags: UsersSayfasininKontrollerininYapilmasi
 
 * Users sayfasının element kontrolünün yapılması
-* Şu anki url "https://testinium.io/user/account/users" ile aynı mı
+* Şu anki url "https://clouddev.testinium.io/user/account/users" ile aynı mı
 
 Test-8 : Billing sayfasının kontrollerinin yapılması
 -----------------------
 Tags: BillingSayfasininKontrollerininYapilmasi
 
 * Billing sayfasının element kontrolünün yapılması
-* Şu anki url "https://testinium.io/user/account/billing" ile aynı mı
+* Şu anki url "https://clouddev.testinium.io/user/account/billing" ile aynı mı
 
 Test-9 : Company sayfasının kontrollerinin yapılması
 -----------------------
 Tags: CompanySayfasininKontrollerininYapilmasi
 * Company sayfasının element kontrolünün yapılması
-* Şu anki url "https://testinium.io/user/account/company" ile aynı mı
+* Şu anki url "https://clouddev.testinium.io/user/account/company" ile aynı mı
 
 Test-10 : Plugins sayfasının kontrollerinin yapılması
 -----------------------
 Tags: PluginsSayfasininKontrollerininYapilmasi
 
 * Plugins sayfasının element kontrolünün yapılması
-* Şu anki url "https://testinium.io/user/account/plugin" ile aynı mı
+* Şu anki url "https://clouddev.testinium.io/user/account/plugin" ile aynı mı
+
+Test-11 : Tunnel sayfasının kontrollerinin yapılması
+-----------------------
+Tags: TunnelSayfasininKontrollerininYapilmasi
+
+* Tunnel sayfasının element kontrolünün yapılması
+* Şu anki url "https://clouddev.testinium.io/user/account/tunnel" ile aynı mı

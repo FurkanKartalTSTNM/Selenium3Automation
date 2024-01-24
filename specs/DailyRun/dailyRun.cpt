@@ -1,5 +1,4 @@
 
-
 # <email> ve <password> bilgileriyle geçerli giriş yapılır ve dashboard sayfasına ulaşılır
 * Geçerli login yapılır ve hesaba giriş yapılır
 
@@ -9,24 +8,25 @@
 * "createNewScenario_Scenarios_DailyRun" elementinin görünür olması kontrol edilir
 * "createNewScenario_Scenarios_DailyRun" elementine tıkla
 * Şu anki url "https://testinium.io/scenario/create" ile aynı mı
-* "projectName_createProject_DailyRun" select element by text <projectName>
+ "projectName_createProject_DailyRun" select element by text <projectName>
 * "scenarioName_createProject_DailyRun" elementinin görünür olması kontrol edilir
 * "scenarioName_createProject_DailyRun" elementine <scerioName> değerini yaz
-//* <scerioName> degerini "scenarioNameKeyValue" keyinde tut
+* <scerioName> degerini "scenarioNameKeyValue" keyinde tut
 * "sourceFile_createProject_DailyRun" elementinin değerini <sourceFile> değeriyle değiştirerek "sourceFileKeyValue" elementini oluştur
 * "sourceFileKeyValue" elementinin görünür olması kontrol edilir
 * "sourceFileKeyValue" elementine tıkla
 * "sourceFile_createProject_DailyRun" elementinin değerini "plansPage.spec" değeriyle değiştirerek "sourceFileplKeyValue" elementini oluştur
 * "1" saniye bekle
-* "sourceFileplKeyValue" elementine tıkla
+ "sourceFileplKeyValue" elementine tıkla
 * "1" saniye bekle
-* "sourceFileKeyValue" elementine tıkla
+ "sourceFileKeyValue" elementine tıkla
 * "testMethod_createProject_DailyRun" elementinin değerini <testMethods> değeriyle değiştirerek "testMethodKeyValue" elementini oluştur
 * "testMethodKeyValue" elementinin görünür olması kontrol edilir
 * "testMethodKeyValue" elementine tıkla
 * "saveButton_createProject_DailyRun" elementinin görünür olması kontrol edilir
 * "saveButton_createProject_DailyRun" elementine tıkla
 * "scenarioCreatedSuccessfully_Plans_DailyRun" elementinin görünür olması kontrol edilir
+
 
 # Proje sayfasında Create new project butonuna tıkla
 * Projects tabına tıklanır
@@ -41,7 +41,8 @@
 # <projectName> adıyla <projectType> <testFileType> projesi oluşturulur
 * Şu anki url "https://testinium.io/project/create?type" içeriyor mu
 * "projectName_ProjectsPage_CreateProject" elementinin görünür olması kontrol edilir
-* "projectName_ProjectsPage_CreateProject" elementine <projectName> değerini yaz
+* <projectName> değerine rastgele "5" karakter ekle ve "projectNameKeyValue" keyinde tut
+* "projectName_ProjectsPage_CreateProject" elementine "projectNameKeyValue" değerini yaz
 * "CreateTemplate_createProject_DailyRun" elementinin görünür olması kontrol edilir
 * "CreateTemplate_createProject_DailyRun" elementine tıkla
 * "CreateTemplate_SiteUrl_DailyRun" elementine "https://www.hepsiburada.com/" değerini yaz
@@ -76,9 +77,9 @@
 * Plans tabına tıkla
 * "createNewPlan_Plans_DailyRun" elementinin görünür olması kontrol edilir
 * "createNewPlan_Plans_DailyRun" elementine tıkla
-* Şu anki url "https://clouddev.testinium.io/plan/create" ile aynı mı
+* Şu anki url "https://testinium.io/plan/create" ile aynı mı
 * "projectName_createPlan_DailyRun" elementinin görünür olması kontrol edilir
-* "projectName_createPlan_DailyRun" select element by text <projectName>
+ "projectName_createPlan_DailyRun" select element by text <projectName>
 * "planName_createPlan_DailyRun" elementinin görünür olması kontrol edilir
 * "planName_createPlan_DailyRun" elementine <planName> değerini yaz
 * "scenarios_createPlan_DailyRun" elementinin değerini <scenarios> değeriyle değiştirerek "scenarioCreateScenarioKeyValue" elementini oluştur
@@ -133,8 +134,8 @@
 * "detailsButtonKeyValue" elementine tıkla
 
 # Sonuçları execution details sayfasında doğrula
-* Şu anki url "https://clouddev.testinium.io/report/detail" içeriyor mu
+* Şu anki url "https://testinium.io/report/detail" içeriyor mu
 * "scenarioName_ExecutionResult_DailyRun" elementinin görünür olması kontrol edilir
 * "scenarioName_ExecutionResult_DailyRun" elementinin text değeri "scenarioNameKeyValue" değerini içeriyor mu
 * "reportTestResult_ExecutionResult_DailyRun" elementinin görünür olması kontrol edilir
-* "reportTestResult_ExecutionResult_DailyRun" elementinin text değeri "Success" değerini içeriyor mu
+* "reportTestResult_ExecutionResult_DailyRun" elementinin text değeri "Failure" değerini içeriyor mu

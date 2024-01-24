@@ -41,7 +41,7 @@
   },
   {
     "key": "saveButton_createProject_DailyRun",
-    "value": "//span[@class='ladda-label' and text()='SAVE']//parent::button",
+    "value": "//span[@class='ladda-label' and text()='SAVE ']//parent::button",
     "type": "xpath"
   },
   {
@@ -82,12 +82,12 @@
   },
   {
     "key": "addButton_createPlan_DailyRun",
-    "value": "//button[text()='ADD']",
+    "value": "//button[text()='ADD ']",
     "type": "xpath"
   },
   {
     "key": "saveButton_createPlan_DailyRun",
-    "value": "//span[@class='ladda-label' and text()='SAVE']//parent::button",
+    "value": "//span[@class='ladda-label' and text()='SAVE ']//parent::button",
     "type": "xpath"
   },
   {

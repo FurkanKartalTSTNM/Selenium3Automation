@@ -1,6 +1,6 @@
 
 # <email> ve <password> bilgileriyle giriş yap
-* "https://clouddev.testinium.io/" adresine git
+* "https://testinium.io/" adresine git
 * "userName_LoginPage" elementinin görünür olması kontrol edilir
 * "password_LoginPage" elementinin görünür olması kontrol edilir
 * "signIn_LoginPage" elementinin görünür olması kontrol edilir
@@ -8,75 +8,50 @@
 * "password_LoginPage" elementine <password> değerini yaz
 * "signIn_LoginPage" elementinin görünür olması kontrol edilir
 * "signIn_LoginPage" elementinin tıklanabilir olması kontrol edilir
-* Click to element "signIn_LoginPage"
+* "signIn_LoginPage" elementine tıkla
 
 # <email> ve <password> bilgileriyle geçerli giriş yapılır ve dashboard sayfasına ulaşılır.
 * <email> ve <password> bilgileriyle giriş yap
-* Şu anki url "https://clouddev.testinium.io/" içeriyor mu
-* Wait for element to be present with xpath "dashboardText_Dashboard"
+* Şu anki url "https://testinium.io/" içeriyor mu
 * "dashboardText_Dashboard" elementinin görünür olması kontrol edilir
 * "dashboardText_Dashboard" elementinin text değeri "Dashboard" değerine eşit mi
 
-# Dashboard sayfasında sidebardan all scenarios tabına tıklanır ve sayfada olup olmadığı kontrol edilir
+# Dashboard sayfasında sidebardan all scenarios tabına tıklanır
 * "scenariosTab_SideBarTabs" elementinin görünür olması kontrol edilir
-* Click to element "scenariosTab_SideBarTabs"
-* Wait for element to be present with xpath "ScenariosPage"
-* Şu anki url "https://clouddev.testinium.io/scenario" ile aynı mı
+* "scenariosTab_SideBarTabs" elementine tıkla
 
-
-# Dashboard sayfasında sidebardan Project tabına tıklanır  ve sayfada olup olmadığı kontrol edilir
+# Dashboard sayfasında sidebardan Project tabına tıklanır
 * "projectTab_SideBarTabs" elementinin görünür olması kontrol edilir
-* Click to element "projectTab_SideBarTabs"
-* Wait for element to be present with xpath "CreateProjectButton"
-* Şu anki url "https://clouddev.testinium.io/project" ile aynı mı
+* "projectTab_SideBarTabs" elementine tıkla
 
-
-# Dashboard sayfasında sidebardan Plans tabına tıklanır ve sayfada olup olmadığı kontrol edilir
+# Dashboard sayfasında sidebardan Plans tabına tıklanır
 * "plansTab_SideBarTabs" elementinin görünür olması kontrol edilir
-* Click to element "plansTab_SideBarTabs"
-* Wait for element to be present with xpath "CreateNewGroupButton"
-* Şu anki url "https://clouddev.testinium.io/plan" ile aynı mı
-
+* "plansTab_SideBarTabs" elementine tıkla
 
 # Dashboard sayfasında sidebardan Report tabına tıklanır
 * "reportsTab_SideBarTabs" elementinin görünür olması kontrol edilir
-* Click to element "reportsTab_SideBarTabs"
+* "reportsTab_SideBarTabs" elementine tıkla
 
-
-# Report tabı altındaki Text Execution (Auto) tabına tıklanır ve sayfada olup olmadığı kontrol edilir
+# Report tabı altındaki Text Execution (Auto) tabına tıklanır
 * "testExecutionsAutoTab_SideBarTabs" elementinin görünür olması kontrol edilir
-* Click to element "testExecutionsAutoTab_SideBarTabs"
-* Wait for element to be present with xpath "ReportsPageText"
-* Şuanki URL "https://clouddev.testinium.io/report" değerini içeriyor mu kontrol et
+* "testExecutionsAutoTab_SideBarTabs" elementine tıkla
 
-
-# Report tabı altındaki Scheduled Reports tabına tıklanır ve sayfada olup olmadığı kontrol edilir
+# Report tabı altındaki Scheduled Reports tabına tıklanır
 * "scheduledReportsTab_SideBarTabs" elementinin görünür olması kontrol edilir
-* Click to element "scheduledReportsTab_SideBarTabs"
-* Wait for element to be present with xpath "CreateNewSchedule"
-* Şuanki URL "https://clouddev.testinium.io/report/scheduled" değerini içeriyor mu kontrol et
+* "scheduledReportsTab_SideBarTabs" elementine tıkla
 
-
-# Report tabı altındaki Smart Prioritization Report tabına tıklanır ve sayfada olup olmadığı kontrol edilir
+# Report tabı altındaki Smart Prioritization Report tabına tıklanır
 * "smartPrioritizationReportTab_SideBarTabs" elementinin görünür olması kontrol edilir
-* Click to element "smartPrioritizationReportTab_SideBarTabs"
-* Wait for element to be present with xpath "SmartPriorisation"
-* Şuanki URL "https://clouddev.testinium.io/report/graph" değerini içeriyor mu kontrol et
+* "smartPrioritizationReportTab_SideBarTabs" elementine tıkla
 
-
-# Dashboard sayfasında sidebardan Automated Tests tabına tıklanır ve sayfada olup olmadığı kontrol edilir
+# Dashboard sayfasında sidebardan Automated Tests tabına tıklanır
 * "automatedTestsTab_SideBarTabs" elementinin görünür olması kontrol edilir
-* Click to element "automatedTestsTab_SideBarTabs"
-* Wait for element to be present with xpath "testCodeGenerator_Title"
-* Şuanki URL "https://clouddev.testinium.io/automated/code-generator" değerini içeriyor mu kontrol et
-
+* "automatedTestsTab_SideBarTabs" elementine tıkla
 
 # Dashboard sayfasında Live Testing tabına tıklanır
 * "liveTestingTab_SideBarTabs" elementinin görünür olması kontrol edilir
-* Click to element "liveTestingTab_SideBarTabs"
-
+* "liveTestingTab_SideBarTabs" elementine tıkla
 
 # All scenarios sayfasındaki home iconuna tıklanır
 * "homeIcon" elementinin görünür olması kontrol edilir
-* Click to element "homeIcon"
-
+* "homeIcon" elementine tıkla

@@ -6,6 +6,7 @@ Geçerli Login
 Tags: GecerliLogin
 
 * Geçerli login yapılır ve hesaba giriş yapılır
+* "1" saniye bekle
 
 Geçersiz Login-Boş kullanıcı adı boş şifre
 ------------------------------------------

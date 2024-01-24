@@ -64,7 +64,7 @@
 * "applyButton" elementine tıkla
 
 # <expectedText> yazısının ekrana geldiği görülür
-* "textMessage" elementinin görünür olması kontrol edilir
+* "textMessage" elementinin görünür olması kontrol edilir "90"
 * "textMessage" elementinin text değeri "Scenario successfully updated" değerine eşit mi
 
 

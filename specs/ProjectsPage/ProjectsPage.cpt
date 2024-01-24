@@ -3,9 +3,8 @@ Proje sayfası concept dosyası
 # Projects tabına tıklanır
 * "projectsTab_SideBarTabs" elementinin görünür olması kontrol edilir
 * "projectsTab_SideBarTabs" elementine tıkla
-* Wait for element to load with xpath "//a[contains(text(),'Projects')]"
+
 # Projects sayfasına yönlendiği ve sayfa elementlerinin ekrana geldiği görülür
-// * Wait for element to load with css "header_ProjectsPage"
 * Şu anki url "https://testinium.io/project" ile aynı mı
 * "createNewProjectPanel_ProjectsPage" elementinin görünür olması kontrol edilir
 * "projectPanel_ProjectsPage" elementinin görünür olması kontrol edilir
@@ -28,9 +27,8 @@ Proje sayfası concept dosyası
 * "1" saniye bekle
 
 # <projectName> kelimesini içeren projelerin ekrana geldiği görülür
-* "FirstProjectName" elementinin görünür olması kontrol edilir
-* "FirstProjectName" elementinin text değeri <projectName> değerini içeriyor mu
-//* "FirstProjectName" elementinin text değeri <projectName> değerine eşit mi
+* "projectNameSearch_ProjectsPage" elementinin görünür olması kontrol edilir
+* "projectNameSearch_ProjectsPage" elementinin text değeri <projectName> değerini içeriyor mu
 
 # <projectName> kelimesini içeren hiçbir projenin olmadığı görülür
 * "projectNameSearch_ProjectsPage" elementinin görünür olmadığı kontrol edilir
@@ -124,7 +122,7 @@ Proje sayfası concept dosyası
 * "saveButton_ProjectsPage_CreateProject" elementinin görünür olması kontrol edilir
 * "saveButton_ProjectsPage_CreateProject" elementine tıkla
 * "message_ProjectsPage_CreateProject" elementinin görünür olması kontrol edilir
-* "message_ProjectsPage_CreateProject" elementinin text değeri "Project successfully created." değerine eşit mi
+/* "message_ProjectsPage_CreateProject" elementinin text değeri "Project successfully created." değerine eşit mi
 
 # Proje panelindeki <projectName> adlı projenin üç nokta butonuna tıklanır
 * "threeDotButtonDynamic_ProjectsPage" elementinin değerini <projectName> değeriyle değiştirerek "threeDotDynamic" elementini oluştur

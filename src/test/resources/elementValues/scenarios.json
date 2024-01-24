@@ -199,9 +199,9 @@
     "type": "class"
   },
   {
-    "key": "ScenariosPage",
-    "value": "div[class='panel-body']",
-    "type": "css"
+    "key": "",
+    "value": "",
+    "type": "xpath"
   },
   {
     "key": "",
