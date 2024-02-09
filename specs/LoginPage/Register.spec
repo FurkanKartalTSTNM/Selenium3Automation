@@ -3,7 +3,7 @@ Register sayfası spec dosyası
 
 Kayıt ol-Kayıt ol sayfasından login sayfasına geçiş
 ---------------------------------------------------
-Tags: KayitOlKayitOlSayfasindanLoginSayfasınaGecis
+Tags: KayitOlKayitOlSayfasindanLoginSayfasinaGecis
 
 * "https://account.testinium.com/uaa/login" sayfasına gelinir
 * Kayıt ol butonuna tıklanır
