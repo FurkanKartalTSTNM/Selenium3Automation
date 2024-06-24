@@ -6,7 +6,7 @@ Created by sena
 
 Test-1 : Profile sayfasının element kontrollerinin yapılması
 -----------------------
-Tags: ProfileSayfasininElementKontrollerininYapilmasi
+Tags: CONG-10818_ProfileSayfasininElementKontrollerininYapilmasi
 
 * Profile tabına tıkla ve profile sayfasında olduğunu kontrol et
 
