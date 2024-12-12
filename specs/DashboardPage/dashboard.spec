@@ -19,14 +19,14 @@ Tags: DashboardSayfasindanScenariosSayfasinaGecis
 
 Dashboard sayfasından plans sayfasına geçiş
 --------------------------------
-Tags: DashboardSayfasindanPlansSayfasinaGecis
+Tags: DashboardSayfasindanScenariosSayfasinaGecis
 
 * Plans tabına tıklanır
 * Dashboarddan plans sayfasına başarılı şekilde yönlendiği görülmelidir
 
 Dashboard sayfasından Test Executions(auto) sayfasına geçiş
 --------------------------------
-Tags: DashboardSayfasindanTestExecutionAutoSayfasinaGecis
+Tags: DashboardSayfasindanScenariosSayfasinaGecis
 
 * Reports tabına tıkla
 * Test Executions Auto tabına tıkla
@@ -34,7 +34,7 @@ Tags: DashboardSayfasindanTestExecutionAutoSayfasinaGecis
 
 Dashboard sayfasından Scheduled Reports sayfasına geçiş
 --------------------------
-Tags: DashboardSayfasindanScheduledReportsSayfasinaGecis
+Tags: DashboardSayfasindanScenariosSayfasinaGecis
 
 * Reports tabına tıkla
 * Scheduled Reports tabına tıkla
