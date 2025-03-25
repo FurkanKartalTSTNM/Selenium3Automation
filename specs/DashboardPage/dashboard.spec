@@ -58,7 +58,7 @@ Tags: DashboardSayfasindanAutomatedTestsSayfasinaGecis
 
 Dashboard Hamburger menü açılıp kapanma kontrolü
 ------------------------------
-Tags: DashboardHamburgerMenüAcilipKapanmaKontrolu
+Tags: DashboardHamburgerMenuAcilipKapanmaKontrolu
 
 * Dashboard sayfasında hamburger menü butonuna tıklanır
 * Sol menünün daraldığı görülür
