@@ -12,9 +12,9 @@ Tags: DashboardSayfasindanProjectSayfasinaGecis
 
 Dashboard sayfasından scenarios sayfasına geçiş
 --------------------------------
-Tags: DashboardSayfasindanScenariosSayfasinaGecis
+Tags: ssDashboardSayfasindanScenariosSayfasinaGecis
 
-* Scenarios tabına tıklanırrrrraaaa
+* Scenarios tabına tıklanırrrrraaaabb
 * Dashboarddan scenarios sayfasına başarılı şekilde yönlendiği görülmelidir
 
 Dashboard sayfasından plans sayfasına geçiş
