@@ -14,7 +14,7 @@ Dashboard sayfasından scenarios sayfasına geçiş
 --------------------------------
 Tags: DashboardSayfasindanScenariosSayfasinaGecis
 
-* Scenarios tabına tıklanır
+* Scenarios tabına tıklanırrrrr
 * Dashboarddan scenarios sayfasına başarılı şekilde yönlendiği görülmelidir
 
 Dashboard sayfasından plans sayfasına geçiş
