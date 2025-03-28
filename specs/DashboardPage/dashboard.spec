@@ -5,7 +5,7 @@ Dashboard sayfası spec dosyası
 
 Dashboard sayfasından project sayfasına geçiş
 -------------------------------
-Tags: DashboardSayfasindanProjectSayfasinaGecisşş
+Tags: DashboardSayfasindanProjectSayfasinaGecis
 
 * Projects tabına tıklanır
 * Dashboarddan project sayfasına başarılı şekilde yönlendiği görülmelidir
@@ -19,7 +19,7 @@ Tags: ssDashboardSayfasindanScenariosSayfasinaGecis
 
 Dashboard sayfasından plans sayfasına geçiş
 --------------------------------
-Tags: DashboardSayfasindanScenariosSayfasinaGecis
+Tags: DashboardSayfasindanScenariosSayfasinaGecisşş
 
 * Plans tabına tıklanır
 * Dashboarddan plans sayfasına başarılı şekilde yönlendiği görülmelidir
