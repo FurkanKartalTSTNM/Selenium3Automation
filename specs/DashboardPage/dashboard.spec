@@ -5,7 +5,7 @@ Dashboard sayfası spec dosyası
 
 Dashboard sayfasından project sayfasına geçiş
 -------------------------------
-Tags: DashboardSayfasindanProjectSayfasinaGecis
+Tags: DashboardSayfasindanProjectSayfasinaGecisşş
 
 * Projects tabına tıklanır
 * Dashboarddan project sayfasına başarılı şekilde yönlendiği görülmelidir
