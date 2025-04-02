@@ -4,5 +4,5 @@ Dashboard sayfası spec dosyası
 
 test senaryo
 ------------------
-Tags : besdakika1
+Tags : besdakika
 * dakikaaab
