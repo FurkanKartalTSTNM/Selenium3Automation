@@ -19,7 +19,7 @@ Tags: ssDashboardSayfasindanScenariosSayfasinaGecis
 
 Dashboard sayfasından plans sayfasına geçiş
 --------------------------------
-Tags: DashboardSayfasindanScenariosSayfasinaGecisşş
+Tags: DashboardSayfasindanScenariosSayfasinaGecis
 
 * Plans tabına tıklanır
 * Dashboarddan plans sayfasına başarılı şekilde yönlendiği görülmelidir
