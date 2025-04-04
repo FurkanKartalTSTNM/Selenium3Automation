@@ -41,7 +41,7 @@ Tags: AutomatedTestsSayfasindanPlansSayfasinaGecis
 
 Test-6: Automated Tests sayfasından Reports içindeki Test Executions(Auto) sayfasına geçiş
 ----------------
-Tags: AutomatedTestsSayfasindanReportsIcindekiTestExecutions(Auto)SayfasinaGecis
+Tags: AutomatedTestsSayfasindanReportsIcindekiTestExecutionsAutoSayfasinaGecis
 
 * Reports tabına tıkla
 * Test Executions Auto tabına tıkla
