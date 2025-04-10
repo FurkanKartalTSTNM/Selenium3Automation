@@ -2,6 +2,7 @@
 Login sayfası concept dosyası
 
 # Geçerli login yapılır ve hesaba giriş yapılır
+* Şu anki url <url> ile aynı mı
 * "https://account.testinium.com/uaa/login" adresine git
 * Şu anki url "https://account.testinium.com/uaa/login" ile aynı mı
 * "userName_LoginPage" elementinin görünür olması kontrol edilir
