@@ -9,7 +9,7 @@ Tags: DashboardSayfasindanProjectSayfasinaGecis
 
 * Projects tabına tıklanır
 * Dashboarddan project sayfasına başarılı şekilde yönlendiği görülmelidir
-* "4" milisaniye bekle
+* Plans tabına tıklanır
 
 Dashboard sayfasından scenarios sayfasına geçiş
 --------------------------------
